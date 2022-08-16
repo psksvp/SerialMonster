@@ -1,0 +1,85 @@
+/* This defines styles and classes used in the book */
+
+@font-face 
+{
+  font-family: "IBM 3270";
+	src: url("3270Medium.ttf");
+}
+
+body 
+{ 
+  font-family: "IBM 3270";
+	margin: 10%; text-align: justify;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+code { font-family: monospace; }
+h1 { text-align: Center;}
+h2 { text-align: left; }
+h3 { text-align: left; }
+h4 { text-align: left; }
+h5 { text-align: left; }
+h6 { text-align: left; }
+h1.title { }
+h2.author { }
+h3.date { }
+nav#toc ol,
+nav#landmarks ol { padding: 0; margin-left: 1em; }
+nav#toc ol li,
+nav#landmarks ol li { list-style-type: none; margin: 0; padding: 0; }
+a.footnote-ref { vertical-align: super; font-size: 10px;}
+em, em em em, em em em em em { font-style: italic;}
+em em, em em em em { font-style: normal; }
+code{ white-space: pre-wrap; }
+span.smallcaps{ font-variant: small-caps; }
+span.underline{ text-decoration: underline; }
+q { quotes: "“" "”" "‘" "’"; }
+div.column{ display: inline-block; vertical-align: top; width: 50%; }
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+pre {
+  padding: 4px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 8px;
+  overflow: auto;
+  border-radius: 1px;
+	font-family: monospace; font-size: 5px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 5px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 2px solid #ccc;
+	border-right: 2px solid #ccc;
+  margin: 1.5em 15px;
+  padding: 0.5em 15px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+
+
+
+
+
